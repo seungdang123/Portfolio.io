@@ -300,8 +300,12 @@ img {
     color: var(--first-color-alt);
 }
 
+.home__img {
+    align-items: center;
+}
+
 .home__blob {
-    width: 350px;
+    width: 200px;
     fill: var(--first-color);
 }
 
@@ -317,7 +321,7 @@ img {
     font-size: var(--big-font-size);
 }
 
-.home_subtitle {
+.home__subtitle {
     font-size: var(--h3-font-size);
     color: var(--text-color);
     font-weight: var(--font-medium);
@@ -514,47 +518,47 @@ img {
 }
 
 .skills__html {
-    width: 90%;
+    width: 80%;
 }
 
 .skills__css {
-    width: 80%;
+    width: 70%;
 }
 
 .skills__js {
-    width: 60%;
+    width: 70%;
 }
 
 .skills__react {
-    width: 80%;
-}
-
-.skills__php {
-    width: 80%;
-}
-
-.skills__node {
-    width: 70%;
-}
-
-.skills__firebase {
-    width: 90%;
-}
-
-.skills__python {
     width: 55%;
 }
 
+.skills__php {
+    width: 30%;
+}
+
+.skills__node {
+    width: 65%;
+}
+
+.skills__firebase {
+    width: 50%;
+}
+
+.skills__python {
+    width: 60%;
+}
+
 .skills__figma {
-    width: 80%;
+    width: 65%;
 }
 
 .skills__sketch {
-    width: 70%;
+    width: 100%;
 }
 
 .skills__photoshop {
-    width: 90%
+    width: 100%
 }
 
 .skills__close .skills__list {
@@ -1039,7 +1043,7 @@ img {
     }
 
     .home__blob {
-        width: 100%;
+        width: 180px;
     }
 
     .skills__title {
